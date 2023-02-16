@@ -29,6 +29,6 @@ public class squarerootTest
     {
         FindRoot Result=new FindRoot();
         Solutions Expected = new Solutions(5, -1);
-        Assert.assertEquals(Result.Solution(1, -4, -5), Expected, "the result is not the same number!");
+        Assert.assertEquals(Result.Solution(1, -4, -5), Expected, "the result is not correct!");
     }
 }
